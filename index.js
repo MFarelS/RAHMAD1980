@@ -35,7 +35,7 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:Aris🖤\n' // MENDING LU TOBAT SU!
+            + 'FN:Rahmad🖤\n' // MENDING LU TOBAT SU!
             + 'ORG:Creator AR15BOT;\n' // KASIH CREDITS GUA SU!!!
             + 'TEL;type=CELL;type=VOICE;waid=62895636761912+62 895-6367-61912\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // RAHMAD80
