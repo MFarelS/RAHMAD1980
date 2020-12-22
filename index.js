@@ -37,7 +37,7 @@ const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN:Rahmad🖤\n' // MENDING LU TOBAT SU!
             + 'ORG:Creator AR15BOT;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=62895636761912+62895636761912\n' // JANGAN KEK BABI SU
+            + 'TEL;type=CELL;type=VOICE;waid=62895636761912+62895-6367-61912\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // RAHMAD80
 prefix = '!'
 blocked = []            
@@ -107,7 +107,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `𝗛𝗮𝗹𝗹𝗼 @${num.split('@')[0]}\𝘀𝗲𝗹𝗮𝗺𝗮𝘁 𝗱𝗮𝘁𝗮𝗻𝗴 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽 *${mdata.subject}* 𝘆𝗮𝗻𝗴 𝗯𝗲𝘁𝗮𝗵 𝗯𝗲𝘁𝗮𝗵 𝘆𝗮𝗵 𝗱𝗶𝘀𝗶𝗻𝗶🖤`
+				teks = `𝗛𝗮𝗹𝗹𝗼 @${num.split('@')[0]}\𝘀𝗲𝗹𝗮𝗺𝗮𝘁 𝗱𝗮𝘁𝗮𝗻𝗴 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽💁 *${mdata.subject}* 𝙔𝙖𝙣𝙜 𝙗𝙚𝙩𝙖𝙝 𝙙𝙞𝙨𝙞𝙣𝙞 𝙮𝙖 𝙨𝙖𝙮𝙖𝙣𝙜𝙠𝙪`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -117,7 +117,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `𝗬𝗲𝗲𝘆𝗲 𝗯𝗲𝗯𝗮𝗻 𝗴𝗿𝗼𝘂𝗽 𝗯𝗲𝗿𝗸𝘂𝗿𝗮𝗻𝗴 𝟭,𝘀𝗮𝘆𝗼𝗻𝗮𝗿𝗮🥳 @${num.split('@')[0]} 𝗴𝗮 𝘂𝘀𝗮𝗵 𝗯𝗮𝗹𝗶𝗸 𝗸𝗲𝘀𝗶𝗻𝗶 𝗹𝗮𝗴𝗶 𝘆𝗮𝗵 𝘁𝗼𝗱`
+				teks = `𝘼𝙠𝙝𝙞𝙧𝙣𝙮𝙖 𝙖𝙣𝙖𝙠 𝙨𝙚𝙩𝙖𝙣 𝙠𝙚𝙡𝙪𝙖𝙧 𝙟𝙪𝙜𝙖, 𝙨𝙚𝙢𝙤𝙜𝙖 𝙩𝙚𝙣𝙖𝙣𝙜 𝙙𝙞𝙖𝙡𝙖𝙢 𝙨𝙖𝙣𝙖 𝙮𝙖:𝙫 @${num.split('@')[0]} 𝙅𝙖𝙣𝙜𝙖𝙣 𝙗𝙖𝙡𝙞𝙠 𝙡𝙖𝙜𝙞 𝙮𝙖 𝙨𝙚𝙩𝙖𝙣🖕
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -159,11 +159,11 @@ client.on('group-participants-update', async (anu) => {
 					Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
 				},
 				only: {
-					group: '❬❗❭ 𝗚𝗥𝗢𝗨𝗣 𝗢𝗡𝗟𝗬 𝗧𝗢𝗗',
-					ownerG: '❬❗❭ 𝗢𝗪𝗡𝗘𝗥 𝗢𝗡𝗟𝗬 𝗧𝗢𝗗',
-					ownerB: '❬❗❭  𝗢𝗪𝗡𝗘𝗥 𝗢𝗡𝗟𝗬 𝗧𝗢𝗗',
-					admin: '❬❗❭ 𝗔𝗗𝗠𝗜𝗡 𝗢𝗡𝗟𝗬 𝗧𝗢𝗗',
-					Badmin: '❬❗❭ 𝗕𝗢𝗧 𝗛𝗔𝗥𝗨𝗦 𝗝𝗔𝗗𝗜 𝗔𝗗𝗠𝗜𝗡 𝗧𝗢𝗗'
+					group: '❬❗❭ 𝗚𝗿𝗼𝘂𝗽 𝗼𝗻𝗹𝘆 𝘀𝗮𝘆𝗮𝗻𝗴',
+					ownerG: '❬❗❭ 𝙊𝙬𝙣𝙚𝙧 𝙤𝙣𝙡𝙮 𝙨𝙖𝙮𝙖𝙣𝙜',
+					ownerB: '❬❗❭ 𝙊𝙬𝙣𝙚𝙧 𝙤𝙣𝙡𝙮 𝙨𝙖𝙮𝙖𝙣𝙜',
+					admin: '❬❗❭ 𝘼𝙙𝙢𝙞𝙣 𝙤𝙣𝙡𝙮 𝙨𝙖𝙮𝙖𝙣𝙜',
+					Badmin: '❬❗❭ 𝘽𝙤𝙩 𝙣𝙮𝙖 𝙝𝙖𝙧𝙪𝙨 𝙟𝙖𝙙𝙞 𝙖𝙙𝙢𝙞𝙣 𝙙𝙪𝙡𝙪 𝙨𝙖𝙮𝙖𝙣𝙜'
 				}
 			}
 
@@ -600,7 +600,7 @@ client.on('group-participants-update', async (anu) => {
             case 'owner':
             case 'creator':
                   client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-       client.sendMessage(from, '𝗧𝘂𝗵 𝗱𝗮𝗵 𝗮𝗸𝘂 𝗸𝗮𝘀𝗶𝗵 𝗻𝗼𝗺𝗲𝗿 𝗖𝗢 👾*RAHMAD*👾,𝗝𝗔𝗡𝗚𝗔𝗡 𝗟𝗨𝗣𝗔 𝗗𝗜 𝗦𝗔𝗩𝗘 𝗘𝗔 ><',MessageType.text, { quoted: mek} )
+       client.sendMessage(from, '𝗧𝘂𝗵 𝗱𝗮𝗵 𝗮𝗸𝘂 𝗸𝗮𝘀𝗶𝗵 𝗻𝗼𝗺𝗲𝗿 𝗖𝗢 👾𝗥𝗮𝗵𝗺𝗮𝗱👾,𝗝𝗔𝗡𝗚𝗔𝗡 𝗟𝗨𝗣𝗔 𝗗𝗜 𝗦𝗔𝗩𝗘 𝗘𝗔 ><',MessageType.text, { quoted: mek} )
            break    
            case 'demote':
 					if (!isGroup) return reply(mess.only.group)
